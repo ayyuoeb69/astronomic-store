@@ -1,6 +1,6 @@
 "use client";
 
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback } from "@/components/commons/Avatar";
 import { motion } from "framer-motion";
 import { useHoverCard } from "../(usecases)/useHoverCard";
 
