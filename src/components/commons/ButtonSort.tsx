@@ -10,7 +10,6 @@ export const Button = ({
   selected = false,
   ...props
 }: PropsWithChildren<IButton>) => {
-  console.log(selected, "selected");
   return (
     <button
       className={cn(

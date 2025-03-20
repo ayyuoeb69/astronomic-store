@@ -39,7 +39,7 @@ export const useProduct = () => {
         return 0;
       });
   }, [productQuery.data, searchQuery, sortKey, sortOrder]);
-  console.log(filteredProducts, "filteredProducts");
+
   const totalPages =
     filteredProducts.length > 0
       ? Math.ceil(filteredProducts.length / ITEMS_PER_PAGE)
